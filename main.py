@@ -608,7 +608,7 @@ class Student(User):
         if cours <= 5:
             print(f"Он сейчас на {cours} курсе")
         else:
-            print("Он у нас окончил обучение или еще не поступал")
+            print("Он у нас окончил обучение или еще не постШпал")
 
 class Teacher(User):
     students = ["Юля", "Рома", "Миша", "Чурка"]
@@ -642,5 +642,5 @@ print(Tch.getFullName())
 print("у нашего учителя были", Tch.students)
 print("Добавиои к нашему учителю", Tch.students.append("рака"))
 print(Tch.students)
-print("Мы удалили Рому", Tch.students.remove("Рома"))
+print("Мы удалили Рому", Tch.students.remove("МИША"))
 print(Tch.students)
